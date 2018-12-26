@@ -7,28 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B526CF6321D37AE2002C64B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B526CF6221D37AE2002C64B1 /* main.m */; };
+		B526CF9821D386C9002C64B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B526CF9721D386C9002C64B1 /* main.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B526CF8321D3812B002C64B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B526CF7F21D3812A002C64B1 /* 调用C语言.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B510806D2192865E00754092;
-			remoteInfo = "调用C语言";
-		};
-		B526CF8921D381AF002C64B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B526CF8521D381AF002C64B1 /* 打印正三角形.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B5117D9221A80158008D360E;
-			remoteInfo = "打印正三角形";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		B526CF5D21D37AE2002C64B1 /* CopyFiles */ = {
+		B526CF9221D386C9002C64B1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -40,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B526CF5F21D37AE2002C64B1 /* Char表的打印(ASCII) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Char表的打印(ASCII)"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B526CF6221D37AE2002C64B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B526CF7F21D3812A002C64B1 /* 调用C语言.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "调用C语言.xcodeproj"; path = "../调用C语言/调用C语言.xcodeproj"; sourceTree = "<group>"; };
-		B526CF8521D381AF002C64B1 /* 打印正三角形.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "打印正三角形.xcodeproj"; path = "../打印正三角形/打印正三角形.xcodeproj"; sourceTree = "<group>"; };
+		B526CF9421D386C9002C64B1 /* ABC，XYZ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ABC，XYZ"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B526CF9721D386C9002C64B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B526CF5C21D37AE2002C64B1 /* Frameworks */ = {
+		B526CF9121D386C9002C64B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,139 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B526CF5621D37AE2002C64B1 = {
+		B526CF8B21D386C9002C64B1 = {
 			isa = PBXGroup;
 			children = (
-				B526CF8521D381AF002C64B1 /* 打印正三角形.xcodeproj */,
-				B526CF7F21D3812A002C64B1 /* 调用C语言.xcodeproj */,
-				B526CF6121D37AE2002C64B1 /* Char表的打印(ASCII) */,
-				B526CF6021D37AE2002C64B1 /* Products */,
+				B526CF9621D386C9002C64B1 /* ABC，XYZ */,
+				B526CF9521D386C9002C64B1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B526CF6021D37AE2002C64B1 /* Products */ = {
+		B526CF9521D386C9002C64B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B526CF5F21D37AE2002C64B1 /* Char表的打印(ASCII) */,
+				B526CF9421D386C9002C64B1 /* ABC，XYZ */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B526CF6121D37AE2002C64B1 /* Char表的打印(ASCII) */ = {
+		B526CF9621D386C9002C64B1 /* ABC，XYZ */ = {
 			isa = PBXGroup;
 			children = (
-				B526CF6221D37AE2002C64B1 /* main.m */,
+				B526CF9721D386C9002C64B1 /* main.m */,
 			);
-			path = "Char表的打印(ASCII)";
-			sourceTree = "<group>";
-		};
-		B526CF8021D3812A002C64B1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B526CF8421D3812B002C64B1 /* 调用C语言 */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B526CF8621D381AF002C64B1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B526CF8A21D381AF002C64B1 /* 打印正三角形 */,
-			);
-			name = Products;
+			path = "ABC，XYZ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B526CF5E21D37AE2002C64B1 /* Char表的打印(ASCII) */ = {
+		B526CF9321D386C9002C64B1 /* ABC，XYZ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B526CF6621D37AE2002C64B1 /* Build configuration list for PBXNativeTarget "Char表的打印(ASCII)" */;
+			buildConfigurationList = B526CF9B21D386C9002C64B1 /* Build configuration list for PBXNativeTarget "ABC，XYZ" */;
 			buildPhases = (
-				B526CF5B21D37AE2002C64B1 /* Sources */,
-				B526CF5C21D37AE2002C64B1 /* Frameworks */,
-				B526CF5D21D37AE2002C64B1 /* CopyFiles */,
+				B526CF9021D386C9002C64B1 /* Sources */,
+				B526CF9121D386C9002C64B1 /* Frameworks */,
+				B526CF9221D386C9002C64B1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Char表的打印(ASCII)";
-			productName = "Char表的打印(ASCII)";
-			productReference = B526CF5F21D37AE2002C64B1 /* Char表的打印(ASCII) */;
+			name = "ABC，XYZ";
+			productName = "ABC，XYZ";
+			productReference = B526CF9421D386C9002C64B1 /* ABC，XYZ */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B526CF5721D37AE2002C64B1 /* Project object */ = {
+		B526CF8C21D386C9002C64B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = kmom;
 				TargetAttributes = {
-					B526CF5E21D37AE2002C64B1 = {
+					B526CF9321D386C9002C64B1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = B526CF5A21D37AE2002C64B1 /* Build configuration list for PBXProject "Char表的打印(ASCII)" */;
+			buildConfigurationList = B526CF8F21D386C9002C64B1 /* Build configuration list for PBXProject "ABC，XYZ" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B526CF5621D37AE2002C64B1;
-			productRefGroup = B526CF6021D37AE2002C64B1 /* Products */;
+			mainGroup = B526CF8B21D386C9002C64B1;
+			productRefGroup = B526CF9521D386C9002C64B1 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B526CF8621D381AF002C64B1 /* Products */;
-					ProjectRef = B526CF8521D381AF002C64B1 /* 打印正三角形.xcodeproj */;
-				},
-				{
-					ProductGroup = B526CF8021D3812A002C64B1 /* Products */;
-					ProjectRef = B526CF7F21D3812A002C64B1 /* 调用C语言.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				B526CF5E21D37AE2002C64B1 /* Char表的打印(ASCII) */,
+				B526CF9321D386C9002C64B1 /* ABC，XYZ */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		B526CF8421D3812B002C64B1 /* 调用C语言 */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "调用C语言";
-			remoteRef = B526CF8321D3812B002C64B1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		B526CF8A21D381AF002C64B1 /* 打印正三角形 */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "打印正三角形";
-			remoteRef = B526CF8921D381AF002C64B1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		B526CF5B21D37AE2002C64B1 /* Sources */ = {
+		B526CF9021D386C9002C64B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B526CF6321D37AE2002C64B1 /* main.m in Sources */,
+				B526CF9821D386C9002C64B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B526CF6421D37AE2002C64B1 /* Debug */ = {
+		B526CF9921D386C9002C64B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		B526CF6521D37AE2002C64B1 /* Release */ = {
+		B526CF9A21D386C9002C64B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -300,7 +236,7 @@
 			};
 			name = Release;
 		};
-		B526CF6721D37AE2002C64B1 /* Debug */ = {
+		B526CF9C21D386C9002C64B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -308,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		B526CF6821D37AE2002C64B1 /* Release */ = {
+		B526CF9D21D386C9002C64B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -319,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B526CF5A21D37AE2002C64B1 /* Build configuration list for PBXProject "Char表的打印(ASCII)" */ = {
+		B526CF8F21D386C9002C64B1 /* Build configuration list for PBXProject "ABC，XYZ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B526CF6421D37AE2002C64B1 /* Debug */,
-				B526CF6521D37AE2002C64B1 /* Release */,
+				B526CF9921D386C9002C64B1 /* Debug */,
+				B526CF9A21D386C9002C64B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B526CF6621D37AE2002C64B1 /* Build configuration list for PBXNativeTarget "Char表的打印(ASCII)" */ = {
+		B526CF9B21D386C9002C64B1 /* Build configuration list for PBXNativeTarget "ABC，XYZ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B526CF6721D37AE2002C64B1 /* Debug */,
-				B526CF6821D37AE2002C64B1 /* Release */,
+				B526CF9C21D386C9002C64B1 /* Debug */,
+				B526CF9D21D386C9002C64B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B526CF5721D37AE2002C64B1 /* Project object */;
+	rootObject = B526CF8C21D386C9002C64B1 /* Project object */;
 }

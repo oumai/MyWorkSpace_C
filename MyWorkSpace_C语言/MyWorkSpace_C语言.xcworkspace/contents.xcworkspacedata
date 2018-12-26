@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Sn = S1+S2+Sn&#x7684;&#x8868;&#x8fbe;&#x5f0f;/Sn = S1+S2+Sn&#x7684;&#x8868;&#x8fbe;&#x5f0f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ABC&#xff0c;XYZ/ABC&#xff0c;XYZ.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Char&#x8868;&#x7684;&#x6253;&#x5370;(ASCII)/../&#x6253;&#x5370;&#x6b63;&#x4e09;&#x89d2;&#x5f62;/&#x6253;&#x5370;&#x6b63;&#x4e09;&#x89d2;&#x5f62;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x8c03;&#x7528;C&#x8bed;&#x8a00;/&#x8c03;&#x7528;C&#x8bed;&#x8a00;.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Char&#x8868;&#x7684;&#x6253;&#x5370;(ASCII)/Char&#x8868;&#x7684;&#x6253;&#x5370;(ASCII).xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x6c42;&#x7279;&#x6b8a;&#x65b9;&#x7a0b;&#x7684;&#x6b63;&#x6574;&#x6570;&#x89e3;/&#x6c42;&#x7279;&#x6b8a;&#x65b9;&#x7a0b;&#x7684;&#x6b63;&#x6574;&#x6570;&#x89e3;.xcodeproj">
    </FileRef>
 </Workspace>
